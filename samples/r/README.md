@@ -69,19 +69,19 @@ In my case my variables are:
 
 Set up the variables in your Windows Machine like the images below:
 
-![Windows Variables Screen](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
+![Windows Variables Screen](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r7.PNG)
 
 R_HOME
 
-![Configing R_HOME](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
+![Configing R_HOME](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r8.PNG)
 
 R_LIBS_USER
 
-![Configing R_LIBS_USER](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r9.PNG)
+![Configing R_LIBS_USER](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r9.PNG)
 
 PATH 
 
-![Configing PATH](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r10.PNG)
+![Configing PATH](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r10.PNG)
 
 
 4. Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
@@ -97,11 +97,11 @@ If you are using Pentaho Data Integration 7.0 EE you can skip this step because 
 Real example: 
 Copy C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64\jri.dll (for 64 bit system) 
 
-![From R](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
+![From R](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r6.PNG)
 
 to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win64
 
-![To PDI]( https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG )
+![To PDI]( https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r5.PNG )
 
 
 6. Restart PDI
@@ -112,7 +112,7 @@ In statistics step, you can find R script Executor step.
 If you have any question you can ask me or else you can drop me email:
 
 Real Example:
-![R Script Executor Step](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
+![R Script Executor Step](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r.PNG)
 
 
 # References for Setup PDI with R
@@ -128,13 +128,13 @@ http://dekarlab.de/wp/?cat=10 <BR>
 
 In the example below we can see how to use PDI to create, test and run a model.
 
-![Image 1](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
+![Image 1](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r.PNG)
 
-![Image 2](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r2.PNG)
+![Image 2](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r2.PNG)
 
-![Image 3](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r3.PNG)
+![Image 3](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r3.PNG)
 
-![Image 4](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r4.PNG)
+![Image 4](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r4.PNG)
 
 
 # References for the Real Example of Learning Orchestration using PDI and R
