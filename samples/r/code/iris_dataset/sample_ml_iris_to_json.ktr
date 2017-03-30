@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>samples_ml_r_api_stackr</name>
+    <name>sample_ml_iris_to_json</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -435,27 +435,6 @@
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
-    <notepad>
-      <note>http&#x3a;&#x2f;&#x2f;stackoverflow.com&#x2f;questions&#x2f;tagged&#x2f;sas</note>
-      <xloc>221</xloc>
-      <yloc>67</yloc>
-      <width>389</width>
-      <heigth>34</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
   </notepads>
   <order>
     <hop>
@@ -483,7 +462,7 @@
     <encoding>UTF-8</encoding>
     <addtoresult>N</addtoresult>
     <file>
-      <name>&#x24;&#x7b;Internal.Transformation.Filename.Directory&#x7d;&#x2f;output_samples_ml_r_api_stackr</name>
+      <name>&#x24;&#x7b;Internal.Transformation.Filename.Directory&#x7d;&#x2f;iris.df.output</name>
       <extention>js</extention>
       <append>Y</append>
       <split>N</split>
@@ -496,24 +475,24 @@
       </file>
     <fields>
       <field>
-        <name>has_synonyms</name>
-        <element>has_synonyms</element>
+        <name>Sepal.Length</name>
+        <element>Sepal.Length</element>
     </field>
       <field>
-        <name>is_moderator_only</name>
-        <element>is_moderator_only</element>
+        <name>Sepal.Width</name>
+        <element>Sepal.Width</element>
     </field>
       <field>
-        <name>is_required</name>
-        <element>is_required</element>
+        <name>Petal.Length</name>
+        <element>Petal.Length</element>
     </field>
       <field>
-        <name>count</name>
-        <element>count</element>
+        <name>Petal.Width</name>
+        <element>Petal.Width</element>
     </field>
       <field>
-        <name>name</name>
-        <element>name</element>
+        <name>Species</name>
+        <element>Species</element>
     </field>
     </fields>
     <cluster_schema/>
@@ -549,7 +528,7 @@
 <output_is_raw_text>N</output_is_raw_text>
 <strings_as_factors>N</strings_as_factors>
 <include_input_as_output>N</include_input_as_output>
-<script>&#x23; The main output is expected to be a data frame, unless &#x22;Output from script is text&#x22; is checked. So,&#xa;&#x23; to output a data frame the last statement in the script should be the name of the frame. In the&#xa;&#x23; case that the output is text &#x28;as would be seen on the R console&#x29;, the last statement should be a&#xa;&#x23; &#x22;print&#x22; statement in order to print the object required.&#xd;&#xa;&#xd;&#xa;library&#x28;stackr&#x29;&#xd;&#xa;stack_tags &#x3c;- stack_tags&#x28;c&#x28;&#x22;pentaho&#x22;, &#x22;SPSS&#x22;, &#x22;SAS&#x22;, &#x22;R&#x22;, &#x22;Python&#x22;, &#x22;weka&#x22;, &#x22;Spark&#x22;, &#x22;Hadoop&#x22;, &#x22;BigData&#x22;, &#x22;ibm&#x22;, &#x22;oracle&#x22;, &#x22;ctools&#x22;, &#x22;kettle&#x22;, &#x22;pdi&#x22;, &#x22;saiku&#x22;&#x29;&#x29;&#xd;&#xa;stack_tags</script>
+<script>&#x23; The main output is expected to be a data frame, unless &#x22;Output from script is text&#x22; is checked. So,&#xa;&#x23; to output a data frame the last statement in the script should be the name of the frame. In the&#xa;&#x23; case that the output is text &#x28;as would be seen on the R console&#x29;, the last statement should be a&#xa;&#x23; &#x22;print&#x22; statement in order to print the object required.&#xd;&#xa;&#xd;&#xa;library&#x28;datasets&#x29;&#xd;&#xa;iris</script>
 <r_log_level>Detailed</r_log_level>
 <load_r_script_at_runtime>N</load_r_script_at_runtime>
 <r_script_to_load/>
@@ -559,29 +538,30 @@
    </incoming_step_names>
    <output_fields>
         <out_field>
-            <field_name>has_synonyms</field_name>
+            <field_name>Sepal.Length</field_name>
 
-            <type>Boolean</type>
+            <type>Number</type>
         </out_field>
         <out_field>
-            <field_name>is_moderator_only</field_name>
+            <field_name>Sepal.Width</field_name>
 
-            <type>Boolean</type>
+            <type>Number</type>
         </out_field>
         <out_field>
-            <field_name>is_required</field_name>
+            <field_name>Petal.Length</field_name>
 
-            <type>Boolean</type>
+            <type>Number</type>
         </out_field>
         <out_field>
-            <field_name>count</field_name>
+            <field_name>Petal.Width</field_name>
 
-            <type>Integer</type>
+            <type>Number</type>
         </out_field>
         <out_field>
-            <field_name>name</field_name>
+            <field_name>Species</field_name>
 
             <type>String</type>
+            <indexed_vals>Y</indexed_vals>
         </out_field>
     </output_fields>
     <cluster_schema/>

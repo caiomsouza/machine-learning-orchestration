@@ -141,3 +141,4 @@ In the example below we can see how to use PDI to create, test and run a model.
 http://www.pentaho.com/machine-learning-orchestration <BR>
 https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/ <BR>
 https://github.com/codek/pdi-samples/tree/master/rstats <BR>
+http://wiki.pentaho.com/download/attachments/25045431/Data_Science_Pack.mp4?version=1&modificationDate=1416521772000<BR>
