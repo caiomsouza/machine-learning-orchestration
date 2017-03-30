@@ -2,7 +2,7 @@
 
 Pentaho’s data integration and analytics platform ends the ‘gridlock’ associated with machine learning by enabling smooth team collaboration, maximizing limited data science resources and putting predictive models to work on big data faster.
 
-| Machine Learning Orchestration using PDI with: | Sample Codes |
+| Tool | Sample Codes of Machine Learning Orchestration using PDI with:|
 | ------------- |:-------------:|
 | Weka | [Sample Codes with Weka](https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/weka) | 
 | R    | https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/r    | 
