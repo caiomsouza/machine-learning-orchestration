@@ -4,7 +4,7 @@ Pentaho’s data integration and analytics platform ends the ‘gridlock’ asso
 
 | Machine Learning Orchestration using PDI with: | URL |
 | ------------- |:-------------:|
-| Weka | https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/weka | 
+| Weka | [Weka](https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/weka) | 
 | R    | https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/r    | 
 | Python | https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/python     | 
 | Apache Spark | https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/apache-spark-ml    | 
