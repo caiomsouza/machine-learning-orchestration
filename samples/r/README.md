@@ -69,7 +69,7 @@ In my case my variables are:
 
 Set up the variables in your Windows Machine like the images below:
 
-![Windows Variables Screen](https://github.com/caiomsouza/machine-learning-orchestration/samples/r/images/pdi_integration_with_r7.PNG)
+![Windows Variables Screen](https://github.com/caiomsouza/machine-learning-orchestration/blob/master/samples/r/images/pdi_integration_with_r7.PNG)
 
 R_HOME
 
