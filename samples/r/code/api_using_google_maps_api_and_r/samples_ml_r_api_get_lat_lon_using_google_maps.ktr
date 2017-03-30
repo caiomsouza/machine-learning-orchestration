@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>samples_ml_r_api_stackr</name>
+    <name>samples_ml_r_api_get_lat_lon_using_google_maps</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -431,7 +431,7 @@
     <created_date>2017&#x2f;03&#x2f;30 16&#x3a;26&#x3a;32.189</created_date>
     <modified_user>-</modified_user>
     <modified_date>2017&#x2f;03&#x2f;30 16&#x3a;26&#x3a;32.189</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -443,72 +443,6 @@
       <enabled>Y</enabled>
     </hop>
   </order>
-  <step>
-    <name>JSON Output</name>
-    <type>JsonOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <outputValue>outputValue</outputValue>
-    <jsonBloc>data</jsonBloc>
-    <nrRowsInBloc>1</nrRowsInBloc>
-    <operation_type>writetofile</operation_type>
-    <compatibility_mode>N</compatibility_mode>
-    <encoding>UTF-8</encoding>
-    <addtoresult>N</addtoresult>
-    <file>
-      <name>&#x24;&#x7b;Internal.Transformation.Filename.Directory&#x7d;&#x2f;output_samples_ml_r_api_stackr</name>
-      <extention>js</extention>
-      <append>Y</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <create_parent_folder>N</create_parent_folder>
-      <DoNotOpenNewFileInit>N</DoNotOpenNewFileInit>
-      <servlet_output>N</servlet_output>
-      </file>
-    <fields>
-      <field>
-        <name>has_synonyms</name>
-        <element>has_synonyms</element>
-    </field>
-      <field>
-        <name>is_moderator_only</name>
-        <element>is_moderator_only</element>
-    </field>
-      <field>
-        <name>is_required</name>
-        <element>is_required</element>
-    </field>
-      <field>
-        <name>count</name>
-        <element>count</element>
-    </field>
-      <field>
-        <name>name</name>
-        <element>name</element>
-    </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-    </step>
-
   <step>
     <name>R Script Executor</name>
     <type>RScriptExcecutor</type>
@@ -528,7 +462,7 @@
 <output_is_raw_text>N</output_is_raw_text>
 <strings_as_factors>N</strings_as_factors>
 <include_input_as_output>N</include_input_as_output>
-<script>&#x23; The main output is expected to be a data frame, unless &#x22;Output from script is text&#x22; is checked. So,&#xa;&#x23; to output a data frame the last statement in the script should be the name of the frame. In the&#xa;&#x23; case that the output is text &#x28;as would be seen on the R console&#x29;, the last statement should be a&#xa;&#x23; &#x22;print&#x22; statement in order to print the object required.&#xd;&#xa;&#xd;&#xa;library&#x28;stackr&#x29;&#xd;&#xa;stack_tags &#x3c;- stack_tags&#x28;c&#x28;&#x22;pentaho&#x22;, &#x22;SPSS&#x22;, &#x22;SAS&#x22;, &#x22;R&#x22;, &#x22;Python&#x22;, &#x22;weka&#x22;, &#x22;Spark&#x22;, &#x22;Hadoop&#x22;, &#x22;BigData&#x22;, &#x22;ibm&#x22;, &#x22;oracle&#x22;, &#x22;ctools&#x22;, &#x22;kettle&#x22;, &#x22;pdi&#x22;, &#x22;saiku&#x22;&#x29;&#x29;&#xd;&#xa;stack_tags</script>
+<script>&#x23; The main output is expected to be a data frame, unless &#x22;Output from script is text&#x22; is checked. So,&#xa;&#x23; to output a data frame the last statement in the script should be the name of the frame. In the&#xa;&#x23; case that the output is text &#x28;as would be seen on the R console&#x29;, the last statement should be a&#xa;&#x23; &#x22;print&#x22; statement in order to print the object required.&#xd;&#xa;&#xd;&#xa;&#x23; This code was original created by Jose Gonzalez https&#x3a;&#x2f;&#x2f;github.com&#x2f;josecarlosgonz &#xd;&#xa;&#x23; and adapted by Caio Moreno https&#x3a;&#x2f;&#x2f;github.com&#x2f;caiomsouza&#xd;&#xa;&#x23; https&#x3a;&#x2f;&#x2f;gist.github.com&#x2f;josecarlosgonz&#x2f;6417633&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;library&#x28;RCurl&#x29;&#xd;&#xa;library&#x28;RJSONIO&#x29;&#xd;&#xa;&#xd;&#xa;&#x23; install.packages&#x28;&#x22;RJSONIO&#x22;&#x29;&#xd;&#xa;&#xd;&#xa;library&#x28;plyr&#x29;&#xd;&#xa;&#xd;&#xa;url &#x3c;- function&#x28;address, return.call &#x3d; &#x22;json&#x22;, sensor &#x3d; &#x22;false&#x22;&#x29; &#x7b;&#xd;&#xa;  root &#x3c;- &#x22;http&#x3a;&#x2f;&#x2f;maps.google.com&#x2f;maps&#x2f;api&#x2f;geocode&#x2f;&#x22;&#xd;&#xa;  u &#x3c;- paste&#x28;root, return.call, &#x22;&#x3f;address&#x3d;&#x22;, address, &#x22;&#x26;sensor&#x3d;&#x22;, sensor, sep &#x3d; &#x22;&#x22;&#x29;&#xd;&#xa;  return&#x28;URLencode&#x28;u&#x29;&#x29;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;geoCode &#x3c;- function&#x28;address,verbose&#x3d;FALSE&#x29; &#x7b;&#xd;&#xa;  if&#x28;verbose&#x29; cat&#x28;address,&#x22;&#x5c;n&#x22;&#x29;&#xd;&#xa;  u &#x3c;- url&#x28;address&#x29;&#xd;&#xa;  doc &#x3c;- getURL&#x28;u&#x29;&#xd;&#xa;  x &#x3c;- fromJSON&#x28;doc,simplify &#x3d; FALSE&#x29;&#xd;&#xa;  if&#x28;x&#x24;status&#x3d;&#x3d;&#x22;OK&#x22;&#x29; &#x7b;&#xd;&#xa;    lat &#x3c;- x&#x24;results&#x5b;&#x5b;1&#x5d;&#x5d;&#x24;geometry&#x24;location&#x24;lat&#xd;&#xa;    lng &#x3c;- x&#x24;results&#x5b;&#x5b;1&#x5d;&#x5d;&#x24;geometry&#x24;location&#x24;lng&#xd;&#xa;    location_type  &#x3c;- x&#x24;results&#x5b;&#x5b;1&#x5d;&#x5d;&#x24;geometry&#x24;location_type&#xd;&#xa;    formatted_address  &#x3c;- x&#x24;results&#x5b;&#x5b;1&#x5d;&#x5d;&#x24;formatted_address&#xd;&#xa;    return&#x28;c&#x28;lat, lng, location_type, formatted_address&#x29;&#x29;&#xd;&#xa;    Sys.sleep&#x28;0.5&#x29;&#xd;&#xa;  &#x7d; else &#x7b;&#xd;&#xa;    return&#x28;c&#x28;NA,NA,NA, NA&#x29;&#x29;&#xd;&#xa;  &#x7d;&#xd;&#xa;&#x7d;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x23;address &#x3c;- geoCode&#x28;&#x22;The White House, Washington, DC&#x22;&#x29;&#xd;&#xa;&#x23;address&#xd;&#xa;&#xd;&#xa;&#x23;address &#x3c;- c&#x28;&#x22;The White House, Washington, DC&#x22;,&#x22;The Capitol, Washington, DC&#x22;&#x29;&#xd;&#xa;&#x23;locations  &#x3c;- ldply&#x28;address, function&#x28;x&#x29; geoCode&#x28;x&#x29;&#x29;&#xd;&#xa;&#x23;names&#x28;locations&#x29;  &#x3c;- c&#x28;&#x22;lat&#x22;,&#x22;lon&#x22;,&#x22;location_type&#x22;, &#x22;formatted&#x22;&#x29;&#xd;&#xa;&#x23;head&#x28;locations&#x29;&#xd;&#xa;&#xd;&#xa;&#x23;address &#x3c;- c&#x28;&#x22;Wellington, New Zeland&#x22;,&#x22;Madrid, Spain&#x22;&#x29;&#xd;&#xa;&#x23;locations  &#x3c;- ldply&#x28;address, function&#x28;x&#x29; geoCode&#x28;x&#x29;&#x29;&#xd;&#xa;&#x23;names&#x28;locations&#x29;  &#x3c;- c&#x28;&#x22;lat&#x22;,&#x22;lon&#x22;,&#x22;location_type&#x22;, &#x22;formatted&#x22;&#x29;&#xd;&#xa;&#x23;head&#x28;locations&#x29;&#xd;&#xa;&#xd;&#xa;address &#x3c;- c&#x28;&#x22;Parque del Retiro, Madrid&#x22;,&#x22;Aeropuerto Barajas, Madrid&#x22;&#x29;&#xd;&#xa;locations  &#x3c;- ldply&#x28;address, function&#x28;x&#x29; geoCode&#x28;x&#x29;&#x29;&#xd;&#xa;names&#x28;locations&#x29;  &#x3c;- c&#x28;&#x22;lat&#x22;,&#x22;lon&#x22;,&#x22;location_type&#x22;, &#x22;formatted&#x22;&#x29;&#xd;&#xa;&#x23;head&#x28;locations&#x29;&#xd;&#xa;locations</script>
 <r_log_level>Detailed</r_log_level>
 <load_r_script_at_runtime>N</load_r_script_at_runtime>
 <r_script_to_load/>
@@ -538,27 +472,22 @@
    </incoming_step_names>
    <output_fields>
         <out_field>
-            <field_name>has_synonyms</field_name>
+            <field_name>lat</field_name>
 
-            <type>Boolean</type>
+            <type>String</type>
         </out_field>
         <out_field>
-            <field_name>is_moderator_only</field_name>
+            <field_name>lon</field_name>
 
-            <type>Boolean</type>
+            <type>String</type>
         </out_field>
         <out_field>
-            <field_name>is_required</field_name>
+            <field_name>location_type</field_name>
 
-            <type>Boolean</type>
+            <type>String</type>
         </out_field>
         <out_field>
-            <field_name>count</field_name>
-
-            <type>Integer</type>
-        </out_field>
-        <out_field>
-            <field_name>name</field_name>
+            <field_name>formatted</field_name>
 
             <type>String</type>
         </out_field>
@@ -572,6 +501,68 @@
     </remotesteps>
     <GUI>
       <xloc>256</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>JSON Output</name>
+    <type>JsonOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <outputValue>outputValue</outputValue>
+    <jsonBloc>data</jsonBloc>
+    <nrRowsInBloc>1</nrRowsInBloc>
+    <operation_type>writetofile</operation_type>
+    <compatibility_mode>N</compatibility_mode>
+    <encoding>UTF-8</encoding>
+    <addtoresult>N</addtoresult>
+    <file>
+      <name>&#x24;&#x7b;Internal.Transformation.Filename.Directory&#x7d;&#x2f;output_samples_ml_r_api_lat_lon_google_maps</name>
+      <extention>js</extention>
+      <append>Y</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <create_parent_folder>N</create_parent_folder>
+      <DoNotOpenNewFileInit>N</DoNotOpenNewFileInit>
+      <servlet_output>N</servlet_output>
+      </file>
+    <fields>
+      <field>
+        <name>lat</name>
+        <element>lat</element>
+    </field>
+      <field>
+        <name>lon</name>
+        <element>lon</element>
+    </field>
+      <field>
+        <name>location_type</name>
+        <element>location_type</element>
+    </field>
+      <field>
+        <name>formatted</name>
+        <element>formatted</element>
+    </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>672</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
