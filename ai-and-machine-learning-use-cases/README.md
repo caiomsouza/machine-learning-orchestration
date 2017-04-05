@@ -36,5 +36,27 @@ IBM recently surveyed top auto executives, and 74% expected that we would see sm
 Source:<BR>
 https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#94c900c94c90<BR><BR>
 
+# How are businesses using artificial intelligence? 13 enterprise uses for AI and machine learning
+
+See the link below:<BR>
+http://www.computerworlduk.com/galleries/it-business/uses-of-ai-machine-learning-in-business-3639749/<BR><BR>
+
+
+# Kaggle - Data Science Use Cases
+
+Background<BR>
+
+For each type of analysis think about:<BR>
+
+* What problem does it solve, and for whom?
+* How is it being solved today?
+* How can it beneficially affect business?
+* What are the data inputs and where do they come from?
+* What are the outputs and how are they consumed- (online algorithm, a static report, etc)
+* Is this a revenue leakage ("saves us money") or a revenue growth ("makes us money") problem?
+
+Source: <BR>
+https://www.kaggle.com/wiki/DataScienceUseCases<BR>
+
 
 
