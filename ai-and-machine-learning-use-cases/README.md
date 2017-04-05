@@ -33,8 +33,8 @@ NLP is being used in all sorts of exciting applications across disciplines. Mach
 10. <b>Smart Cars</b>
 IBM recently surveyed top auto executives, and 74% expected that we would see smart cars on the road by 2025. A smart car would not only integrate into the Internet of Things, but also learn about its owner and its environment. It might adjust the internal settings — temperature, audio, seat position, etc. — automatically based on the driver, report and even fix problems itself, drive itself, and offer real time advice about traffic and road conditions.
 
-Source:
-https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#94c900c94c90<BR>
+Source:<BR>
+https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#94c900c94c90<BR><BR>
 
 
 
