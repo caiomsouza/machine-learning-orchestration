@@ -41,6 +41,8 @@ https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-case
 See the link below:<BR>
 http://www.computerworlduk.com/galleries/it-business/uses-of-ai-machine-learning-in-business-3639749/<BR><BR>
 
+# How real businesses are using machine learning
+https://techcrunch.com/2016/03/19/how-real-businesses-are-using-machine-learning/
 
 # Kaggle - Data Science Use Cases
 
