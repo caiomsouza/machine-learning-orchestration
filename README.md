@@ -23,6 +23,8 @@ http://www.pentaho.com/product/data-integration<BR>
 | Python | [Sample Codes with Python](https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/python) | 
 | Apache Spark | [Sample Codes with Apache Spark](https://github.com/caiomsouza/machine-learning-orchestration/tree/master/samples/apache-spark-ml)  | 
 
+# Automatic Machine Learning
+[Learn more about Automatic Machine Learning](https://github.com/caiomsouza/machine-learning-orchestration/tree/master/AutoML)
 
 
 # Reference
