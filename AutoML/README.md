@@ -5,6 +5,9 @@ Automatic Machine Learning is a fairly hot topic at the moment. However, current
 AutoML: taking the human expert out of the loop<BR>
 http://automl.org/<BR>
 
+ML4AAD - Machine Learning for Automated Algorithm Design<BR>
+http://www.ml4aad.org/<BR>
+
 Automatic Machine Learning<BR>
 http://www.cs.columbia.edu/~jebara/htmlpapers/ARL/node10.html<BR>
 
@@ -17,9 +20,12 @@ https://www.r-bloggers.com/introduction-to-automatic-machine-learning/<BR>
 Auto-Weka<BR>
 http://www.cs.ubc.ca/labs/beta/Projects/autoweka/<BR>
 http://www2.informatik.uni-freiburg.de/~hutter/<BR>
+https://github.com/automl/autoweka<BR>
 
 Auto-sklearn<BR>
 http://www.ml4aad.org/automl/auto-sklearn/<BR>
+https://automl.github.io/auto-sklearn/stable/<BR>
+https://github.com/automl/auto-sklearn
 
 DataRobot<BR>
 https://www.datarobot.com/blog/automated-machine-learning-short-history/<BR>
