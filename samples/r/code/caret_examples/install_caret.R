@@ -1,0 +1,18 @@
+#install.packages("caret")
+
+install.packages(c("caret", "AppliedPredictiveModeling", "readr", "e1071", "RANN", "corrplot", "ggplot2", "plyr", "dplyr","ranger", "party", "mboost", "doMC", "DMwR", "ROSE", "caTools", "kernlab"))
+
+library(readr)
+library(caret)
+library(e1071)
+library(ggplot2)
+library(corrplot)
+library(plyr)
+library(dplyr)
+library(ranger)
+library(party)
+library(mboost)
+library(DMwR)
+library(ROSE)
+library(caTools)
+library(kernlab)
