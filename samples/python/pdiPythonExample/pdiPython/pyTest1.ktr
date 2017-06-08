@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>pyTest1</name>
+    <description />
+    <extended_description />
+    <trans_version />
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject />
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection />
+      <table />
+      <field />
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file />
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+      <slaveserver>
+        <name>di-server</name>
+        <hostname>localhost</hostname>
+        <port>9080</port>
+        <webAppName>pentaho-di</webAppName>
+        <username>joe</username>
+        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
+        <proxy_hostname />
+        <proxy_port />
+        <non_proxy_hosts />
+        <master>N</master>
+        <sslMode>N</sslMode>
+      </slaveserver>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2015/07/02 09:49:17.731</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2015/07/02 09:49:17.731</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+    <notepad>
+      <note>Compute quartiles for columns
+in iris data</note>
+      <xloc>1024</xloc>
+      <yloc>32</yloc>
+      <width>340</width>
+      <heigth>64</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Transform the numeric
+fields of the iris data with
+a PCA</note>
+      <xloc>576</xloc>
+      <yloc>128</yloc>
+      <width>276</width>
+      <heigth>91</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Create a bunch of visualizations
+of the iris data:
+
+scatter plot with densities
+parallel coordinates
+andrew's curves
+radvis</note>
+      <xloc>352</xloc>
+      <yloc>256</yloc>
+      <width>352</width>
+      <heigth>199</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Save visualizations to ${Internal.Tranformation.Filename.Directory}
+as png files.</note>
+      <xloc>896</xloc>
+      <yloc>352</yloc>
+      <width>720</width>
+      <heigth>64</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Randomly shuffle data,
+train an sklearn decision tree
+and save the model</note>
+      <xloc>224</xloc>
+      <yloc>672</yloc>
+      <width>320</width>
+      <heigth>91</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Load the model from the previous
+step and score the incoming data</note>
+      <xloc>832</xloc>
+      <yloc>576</yloc>
+      <width>370</width>
+      <heigth>64</heigth>
+      <fontname>Arial</fontname>
+      <fontsize>12</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+  </notepads>
+  <order>
+    <hop>
+      <from>CSV file input</from>
+      <to>CPython Script Executor</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CSV file input</from>
+      <to>CPython Script Executor 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CSV file input</from>
+      <to>CPython Script Executor 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CPython Script Executor 3</from>
+      <to>Modified Java Script Value</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CSV file input</from>
+      <to>CPython Script Executor 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>CPython Script Executor 4</from>
+      <to>CPython Script Executor 5</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>CPython Script Executor</name>
+    <type>CPythonScriptExecutor</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>N</include_input_as_output>
+    <py_script># Python script
+from pandas import DataFrame
+quant = iris.quantile([0.25,0.5,0.75])
+
+
+</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>quant</py_vars_to_get>
+    <include_frame_row_index>Y</include_frame_row_index>
+    <frame_names>
+      <frame_name0>iris</frame_name0>
+    </frame_names>
+    <incoming_step_names>
+      <step_name0>CSV file input</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>index</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>sepallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>sepalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+    </output_fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>832</xloc>
+      <yloc>32</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CPython Script Executor 2</name>
+    <type>CPythonScriptExecutor</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>N</include_input_as_output>
+    <py_script># Python script
+from sklearn import datasets
+from pandas import DataFrame
+import sklearn.decomposition as deco
+import numpy as np
+
+X=iris2.iloc[:,[0,1,2,3]].values
+pca=deco.PCA(4)
+x_r=pca.fit(X).transform(X)
+pdf=DataFrame(x_r)
+</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>pdf</py_vars_to_get>
+    <include_frame_row_index>N</include_frame_row_index>
+    <frame_names>
+      <frame_name0>iris2</frame_name0>
+    </frame_names>
+    <incoming_step_names>
+      <step_name0>CSV file input</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>0</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>1</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>2</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>3</field_name>
+        <type>Number</type>
+      </output_field>
+    </output_fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CPython Script Executor 3</name>
+    <type>CPythonScriptExecutor</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>N</include_input_as_output>
+    <py_script>import matplotlib.pyplot as plt
+from pandas.tools.plotting import scatter_matrix
+from pandas.tools.plotting import andrews_curves
+from pandas.tools.plotting import parallel_coordinates
+from pandas.tools.plotting import radviz
+import numpy as np
+
+iris=py_data
+# Summarize the input data
+summary=str(iris.describe(include='all'))
+# Scatter plot
+scatter = scatter_matrix(iris,figsize=(6,6),diagonal='kde')
+fig=scatter[0][0].get_figure()
+# Andrew's curves
+fig2=plt.figure()
+andrews_curves(iris, 'class')
+# Parallel coordinates
+fig3=plt.figure()
+parallel_coordinates(iris, 'class')
+# RadViz
+fig4=plt.figure()
+radviz(iris, 'class')
+
+</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>fig,fig2,fig3,fig4</py_vars_to_get>
+    <include_frame_row_index>N</include_frame_row_index>
+    <frame_names>
+      <frame_name0>py_data</frame_name0>
+    </frame_names>
+    <incoming_step_names>
+      <step_name0>CSV file input</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>fig</field_name>
+        <type>Serializable</type>
+      </output_field>
+      <output_field>
+        <field_name>fig2</field_name>
+        <type>Serializable</type>
+      </output_field>
+      <output_field>
+        <field_name>fig3</field_name>
+        <type>Serializable</type>
+      </output_field>
+      <output_field>
+        <field_name>fig4</field_name>
+        <type>Serializable</type>
+      </output_field>
+    </output_fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>480</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CPython Script Executor 4</name>
+    <type>CPythonScriptExecutor</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>N</include_input_as_output>
+    <py_script># learn a scikit-learn classifier
+from sklearn import *
+from pandas import DataFrame
+import numpy as np
+from sklearn.externals import joblib
+import os
+
+# randomly shuffle the rows of the dataframe 
+py_data=py_data.reindex(np.random.permutation(py_data.index))
+
+# extract training columns and class column
+X=py_data.iloc[:,[0,1,2,3]].values
+Y=py_data.iloc[:,[4]].values
+
+# build a decision tree
+dt=tree.DecisionTreeClassifier()
+dt.fit(X,Y)
+
+# save the model
+filename='${Internal.Transformation.Filename.Directory}/dt.sklearn'
+if os.name == 'nt':
+	filename=filename[8:] # strip file:/// off
+else:
+	filename=filename[7:] # strip the "file://" off (probably needs changing for windows paths...)
+joblib.dump(dt,filename)
+</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>py_data</py_vars_to_get>
+    <include_frame_row_index>N</include_frame_row_index>
+    <frame_names>
+      <frame_name0>py_data</frame_name0>
+    </frame_names>
+    <incoming_step_names>
+      <step_name0>CSV file input</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>sepallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>sepalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>class</field_name>
+        <type>String</type>
+      </output_field>
+    </output_fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>128</xloc>
+      <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CPython Script Executor 5</name>
+    <type>CPythonScriptExecutor</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>Y</include_input_as_output>
+    <py_script># Python script
+from sklearn import *
+from pandas import DataFrame
+import numpy as np
+from sklearn.externals import joblib
+import os
+
+# load the model...
+filename='${Internal.Transformation.Filename.Directory}/dt.sklearn'
+if os.name == 'nt':
+	filename=filename[8:] # strip the file:/// off
+else:
+	filename=filename[7:] # strip the "file://" off
+dt = joblib.load(filename)
+
+# predict the incoming data (we only need the input columns, not the target)
+X=test_data.iloc[:,[0,1,2,3]].values
+preds = dt.predict_proba(X)
+
+p = DataFrame(preds, columns=['prob-setosa','prob-versicolor','prob-virginica'])
+</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>p</py_vars_to_get>
+    <include_frame_row_index>N</include_frame_row_index>
+    <frame_names>
+      <frame_name0>test_data</frame_name0>
+    </frame_names>
+    <incoming_step_names>
+      <step_name0>CPython Script Executor 4</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>sepallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>sepalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petallength</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>petalwidth</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>class</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>prob-setosa</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>prob-versicolor</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>prob-virginica</field_name>
+        <type>Number</type>
+      </output_field>
+    </output_fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>960</xloc>
+      <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CSV file input</name>
+    <type>CsvInput</type>
+    <description />
+    <distribute>N</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <filename>${Internal.Transformation.Filename.Directory}/iris.csv</filename>
+    <filename_field />
+    <rownum_field />
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding />
+    <fields>
+      <field>
+        <name>sepallength</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>sepalwidth</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>petallength</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>petalwidth</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>class</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>32</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Modified Java Script Value</name>
+    <type>ScriptValueMod</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+var File = java.io.File;
+var FileOutputStream = java.io.FileOutputStream;
+var ImageIO = javax.imageio.ImageIO
+
+var filePrefix = substr(getVariable('Internal.Transformation.Filename.Directory',''), 7);
+
+var image1path = filePrefix + File.separator + 'pic1.png';
+var image2path = filePrefix + File.separator + 'pic2.png';
+var image3path = filePrefix + File.separator + 'pic3.png';
+var image4path = filePrefix + File.separator + 'pic4.png';
+
+ImageIO.write(fig,'png',new File(image1path));
+ImageIO.write(fig2,'png', new File(image2path));
+ImageIO.write(fig3,'png',new File(image3path));
+ImageIO.write(fig4,'png',new File(image4path));
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1056</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+</transformation>

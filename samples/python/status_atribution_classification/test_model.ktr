@@ -2,22 +2,22 @@
 <transformation>
   <info>
     <name>test_model</name>
-    <description/>
-    <extended_description/>
-    <trans_version/>
+    <description />
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>&#x2f;</directory>
+    <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -42,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -126,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -208,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -274,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -350,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -402,9 +402,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -415,7 +415,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -428,10 +428,10 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2017&#x2f;02&#x2f;08 15&#x3a;38&#x3a;58.635</created_date>
+    <created_date>2017/02/08 15:38:58.635</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2017&#x2f;02&#x2f;08 15&#x3a;38&#x3a;58.635</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <modified_date>2017/02/08 15:38:58.635</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -445,19 +445,46 @@
     <port>5432</port>
     <username>postgres</username>
     <password>Encrypted 2be98afc86aa7f2e4bb16bd64d980aac9</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>5432</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
     </attributes>
   </connection>
   <order>
@@ -525,75 +552,104 @@
   <step>
     <name>CPython Script Executor</name>
     <type>CPythonScriptExecutor</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-<rows_to_process>ALL</rows_to_process>
-<rows_to_process_size/>
-<reservoir_sampling>N</reservoir_sampling>
-<reservoir_sampling_size/>
-<reservoir_sampling_seed>1</reservoir_sampling_seed>
-<include_input_as_output>Y</include_input_as_output>
-<py_script>&#x23; python script&#xd;&#xa;&#xd;&#xa;import numpy as np&#xd;&#xa;from sklearn import tree&#xd;&#xa;from pandas import DataFrame&#xd;&#xa;from sklearn.externals import joblib&#xd;&#xa;import os&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;df &#x3d; df.applymap&#x28;str&#x29;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x23; save the model&#xd;&#xa;&#x23;filename&#x3d; &#x27;C&#x3a;&#x5c;&#x5c;share&#x5c;&#x5c;anya&#x5c;&#x5c;dt.NWR&#x27;&#xd;&#xa;filename&#x3d; &#x27;C&#x3a;&#x5c;&#x5c;Users&#x5c;csouza&#x5c;&#x5c;Documents&#x5c;&#x5c;Projects&#x5c;&#x5c;Pre-Sales&#x5c;&#x5c;NetworkRails&#x5c;&#x5c;NWR Data and Solution&#x5c;&#x5c;dt.NWR&#x27;&#xd;&#xa;&#xd;&#xa;clf &#x3d; joblib.load&#x28;filename&#x29;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;Y &#x3d; df&#x5b;&#x27;Attribution_Status&#x27;&#x5d;.values&#xd;&#xa;&#xd;&#xa;df &#x3d; df.drop&#x28;&#x27;Attribution_Status&#x27;, axis&#x3d;1&#x29;&#xd;&#xa;&#xd;&#xa;X &#x3d; df.values&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;from sklearn import preprocessing&#xd;&#xa;le &#x3d; preprocessing.LabelEncoder&#x28;&#x29;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;for i in range&#x28;X.shape&#x5b;1&#x5d;&#x29;&#x3a;&#xd;&#xa;    X&#x5b;&#x3a;,i&#x5d; &#x3d; le.fit_transform&#x28;X&#x5b;&#x3a;,i&#x5d;&#x29;&#xd;&#xa;Y &#x3d; le.fit_transform&#x28;Y&#x29;&#xd;&#xa;&#xd;&#xa;y_pred &#x3d;clf.predict&#x28;X&#x29;&#xd;&#xa;y_pred &#x3d; le.inverse_transform&#x28;y_pred&#x29;&#xd;&#xa;&#xd;&#xa;p &#x3d; DataFrame&#x28;y_pred, columns&#x3d;&#x5b;&#x27;prediction&#x27;&#x5d;&#x29;</py_script>
-<load_script_at_runtime>N</load_script_at_runtime>
-<script_to_load/>
-<continue_on_unset_vars>N</continue_on_unset_vars>
-<py_vars_to_get>p</py_vars_to_get>
-<include_frame_row_index>N</include_frame_row_index>
-   <frame_names>
-    <frame_name0>df</frame_name0>
+    <rows_to_process>ALL</rows_to_process>
+    <rows_to_process_size />
+    <reservoir_sampling>N</reservoir_sampling>
+    <reservoir_sampling_size />
+    <reservoir_sampling_seed>1</reservoir_sampling_seed>
+    <include_input_as_output>Y</include_input_as_output>
+    <py_script># python script
+
+import numpy as np
+from sklearn import tree
+from pandas import DataFrame
+from sklearn.externals import joblib
+import os
+
+
+df = df.applymap(str)
+
+
+# save the model
+#filename= 'C:\\share\\anya\\dt.NWR'
+filename= 'C:\\Users\csouza\\Documents\\Projects\\Pre-Sales\\NetworkRails\\NWR Data and Solution\\dt.NWR'
+
+clf = joblib.load(filename)
+
+
+Y = df['Attribution_Status'].values
+
+df = df.drop('Attribution_Status', axis=1)
+
+X = df.values
+
+
+from sklearn import preprocessing
+le = preprocessing.LabelEncoder()
+
+
+for i in range(X.shape[1]):
+    X[:,i] = le.fit_transform(X[:,i])
+Y = le.fit_transform(Y)
+
+y_pred =clf.predict(X)
+y_pred = le.inverse_transform(y_pred)
+
+p = DataFrame(y_pred, columns=['prediction'])</py_script>
+    <load_script_at_runtime>N</load_script_at_runtime>
+    <script_to_load />
+    <continue_on_unset_vars>N</continue_on_unset_vars>
+    <py_vars_to_get>p</py_vars_to_get>
+    <include_frame_row_index>N</include_frame_row_index>
+    <frame_names>
+      <frame_name0>df</frame_name0>
     </frame_names>
-   <incoming_step_names>
-    <step_name0>Filter rows</step_name0>
-   </incoming_step_names>
-   <output_fields>
-        <output_field>
-            <field_name>Section_Code</field_name>
-
-            <type>String</type>
-        </output_field>
-        <output_field>
-            <field_name>PfPI_Minutes</field_name>
-
-            <type>Number</type>
-        </output_field>
-        <output_field>
-            <field_name>Train_ID___Resp</field_name>
-
-            <type>String</type>
-        </output_field>
-        <output_field>
-            <field_name>Incident_Equipment</field_name>
-
-            <type>String</type>
-        </output_field>
-        <output_field>
-            <field_name>Planned_Dest_Location_Code___Affected</field_name>
-
-            <type>Integer</type>
-        </output_field>
-        <output_field>
-            <field_name>Attribution_Status</field_name>
-
-            <type>String</type>
-        </output_field>
-        <output_field>
-            <field_name>Network_Rail_Location_Manager</field_name>
-
-            <type>String</type>
-        </output_field>
-        <output_field>
-            <field_name>prediction</field_name>
-
-            <type>String</type>
-        </output_field>
+    <incoming_step_names>
+      <step_name0>Filter rows</step_name0>
+    </incoming_step_names>
+    <output_fields>
+      <output_field>
+        <field_name>Section_Code</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>PfPI_Minutes</field_name>
+        <type>Number</type>
+      </output_field>
+      <output_field>
+        <field_name>Train_ID___Resp</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>Incident_Equipment</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>Planned_Dest_Location_Code___Affected</field_name>
+        <type>Integer</type>
+      </output_field>
+      <output_field>
+        <field_name>Attribution_Status</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>Network_Rail_Location_Manager</field_name>
+        <type>String</type>
+      </output_field>
+      <output_field>
+        <field_name>prediction</field_name>
+        <type>String</type>
+      </output_field>
     </output_fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -601,22 +657,21 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
+      <xloc>576</xloc>
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Compare Actual and Predicted</name>
     <type>MergeRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <keys>
     </keys>
@@ -624,12 +679,12 @@
       <value>Actual Attribution Status</value>
       <value>Predicted Attribution Status</value>
     </values>
-<flag_field>Actual Vs Prediction</flag_field>
-<reference>Rename Fields</reference>
-<compare>Rename Fields</compare>
+    <flag_field>Actual Vs Prediction</flag_field>
+    <reference>Rename Fields</reference>
+    <compare>Rename Fields</compare>
     <compare>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -641,42 +696,59 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Filter rows</name>
     <type>FilterRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-<send_true_to>CPython Script Executor</send_true_to>
-<send_false_to/>
+    <send_true_to>CPython Script Executor</send_true_to>
+    <send_false_to />
     <compare>
-<condition>
- <negated>N</negated>
- <conditions>
-  <condition>
-   <negated>N</negated>
-   <leftvalue>Attribution_Status</leftvalue>
-   <function>&#x3d;</function>
-   <rightvalue/>
-   <value><name>constant</name><type>String</type><text>Attribution Agreed </text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
-  <condition>
-   <negated>N</negated>
-   <operator>OR</operator>
-   <leftvalue>Attribution_Status</leftvalue>
-   <function>&#x3d;</function>
-   <rightvalue/>
-   <value><name>constant</name><type>String</type><text>Attribution Disputed</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value>   </condition>
-  </conditions>
- </condition>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>Attribution_Status</leftvalue>
+            <function>=</function>
+            <rightvalue />
+            <value>
+              <name>constant</name>
+              <type>String</type>
+              <text>Attribution Agreed </text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask />
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>OR</operator>
+            <leftvalue>Attribution_Status</leftvalue>
+            <function>=</function>
+            <rightvalue />
+            <value>
+              <name>constant</name>
+              <type>String</type>
+              <text>Attribution Disputed</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask />
+            </value>
+          </condition>
+        </conditions>
+      </condition>
     </compare>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -688,34 +760,33 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Number of Incidents</name>
     <type>Constant</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>Number of Incidents</name>
         <type>Number</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <nullif>1</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -727,38 +798,57 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Rename Fields</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <fields>      <field>        <name>Section_Code</name>
+    <fields>
+      <field>
+        <name>Section_Code</name>
         <rename>Section Code</rename>
-      </field>      <field>        <name>PfPI_Minutes</name>
+      </field>
+      <field>
+        <name>PfPI_Minutes</name>
         <rename>Minutes Delay</rename>
-      </field>      <field>        <name>Train_ID___Resp</name>
+      </field>
+      <field>
+        <name>Train_ID___Resp</name>
         <rename>Train ID</rename>
-      </field>      <field>        <name>Incident_Equipment</name>
+      </field>
+      <field>
+        <name>Incident_Equipment</name>
         <rename>Incident Equipment</rename>
-      </field>      <field>        <name>Planned_Dest_Location_Code___Affected</name>
+      </field>
+      <field>
+        <name>Planned_Dest_Location_Code___Affected</name>
         <rename>Planned Destination</rename>
-      </field>      <field>        <name>Network_Rail_Location_Manager</name>
+      </field>
+      <field>
+        <name>Network_Rail_Location_Manager</name>
         <rename>Network Rail Manager</rename>
-      </field>      <field>        <name>Attribution_Status</name>
+      </field>
+      <field>
+        <name>Attribution_Status</name>
         <rename>Actual Attribution Status</rename>
-      </field>      <field>        <name>prediction</name>
+      </field>
+      <field>
+        <name>prediction</name>
         <rename>Predicted Attribution Status</rename>
-      </field>      <field>        <name>Number of Incidents</name>
-      </field>        <select_unspecified>Y</select_unspecified>
-    </fields>    <cluster_schema/>
+      </field>
+      <field>
+        <name>Number of Incidents</name>
+      </field>
+      <select_unspecified>Y</select_unspecified>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -770,28 +860,43 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <fields>      <field>        <name>Section_Code</name>
-      </field>      <field>        <name>PfPI_Minutes</name>
-      </field>      <field>        <name>Train_ID___Resp</name>
-      </field>      <field>        <name>Incident_Equipment</name>
-      </field>      <field>        <name>Planned_Dest_Location_Code___Affected</name>
-      </field>      <field>        <name>Attribution_Status</name>
-      </field>      <field>        <name>Network_Rail_Location_Manager</name>
-      </field>        <select_unspecified>N</select_unspecified>
-    </fields>    <cluster_schema/>
+    <fields>
+      <field>
+        <name>Section_Code</name>
+      </field>
+      <field>
+        <name>PfPI_Minutes</name>
+      </field>
+      <field>
+        <name>Train_ID___Resp</name>
+      </field>
+      <field>
+        <name>Incident_Equipment</name>
+      </field>
+      <field>
+        <name>Planned_Dest_Location_Code___Affected</name>
+      </field>
+      <field>
+        <name>Attribution_Status</name>
+      </field>
+      <field>
+        <name>Network_Rail_Location_Manager</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -803,26 +908,25 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Sort Actual Status</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
-      <prefix>out</prefix>
-      <sort_size>1000000</sort_size>
-      <free_memory/>
-      <compress>N</compress>
-      <compress_variable/>
-      <unique_rows>N</unique_rows>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
     <fields>
       <field>
         <name>Attribution_Status</name>
@@ -833,7 +937,7 @@
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -845,26 +949,25 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Sort Predicted Status</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
-      <prefix>out</prefix>
-      <sort_size>1000000</sort_size>
-      <free_memory/>
-      <compress>N</compress>
-      <compress_variable/>
-      <unique_rows>N</unique_rows>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
     <fields>
       <field>
         <name>prediction</name>
@@ -875,7 +978,7 @@
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -887,21 +990,20 @@
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Table output</name>
     <type>TableOutput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>Postgres</connection>
-    <schema/>
+    <schema />
     <table>stg_attribution_prediction</table>
     <commit>1000</commit>
     <truncate>Y</truncate>
@@ -909,17 +1011,17 @@
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
     <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
+    <partitioning_field />
     <partitioning_daily>N</partitioning_daily>
     <partitioning_monthly>Y</partitioning_monthly>
     <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
+    <tablename_field />
     <tablename_in_table>Y</tablename_in_table>
     <return_keys>N</return_keys>
-    <return_field/>
+    <return_field />
     <fields>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -931,41 +1033,40 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Total Actual Status</name>
     <type>GroupBy</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <all_rows>N</all_rows>
-      <ignore_aggregate>N</ignore_aggregate>
-      <field_ignore/>
-      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
-      <prefix>grp</prefix>
-      <add_linenr>N</add_linenr>
-      <linenr_fieldname/>
-      <give_back_row>N</give_back_row>
-      <group>
-        <field>
-          <name>Attribution_Status</name>
-        </field>
-      </group>
-      <fields>
-        <field>
-          <aggregate>Actual Status</aggregate>
-          <subject>Attribution_Status</subject>
-          <type>COUNT_ALL</type>
-          <valuefield/>
-        </field>
-      </fields>
-    <cluster_schema/>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>Attribution_Status</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>Actual Status</aggregate>
+        <subject>Attribution_Status</subject>
+        <type>COUNT_ALL</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -977,41 +1078,40 @@
       <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Total Prediced Status</name>
     <type>GroupBy</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <all_rows>N</all_rows>
-      <ignore_aggregate>N</ignore_aggregate>
-      <field_ignore/>
-      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
-      <prefix>grp</prefix>
-      <add_linenr>N</add_linenr>
-      <linenr_fieldname/>
-      <give_back_row>N</give_back_row>
-      <group>
-        <field>
-          <name>prediction</name>
-        </field>
-      </group>
-      <fields>
-        <field>
-          <aggregate>Predicted Status</aggregate>
-          <subject>prediction</subject>
-          <type>COUNT_ALL</type>
-          <valuefield/>
-        </field>
-      </fields>
-    <cluster_schema/>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>prediction</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>Predicted Status</aggregate>
+        <subject>prediction</subject>
+        <type>COUNT_ALL</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1023,27 +1123,26 @@
       <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Train Delays History</name>
     <type>TextFileInput</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <accept_filenames>N</accept_filenames>
     <passing_through_fields>N</passing_through_fields>
-    <accept_field/>
-    <accept_stepname/>
+    <accept_field />
+    <accept_stepname />
     <separator>,</separator>
-    <enclosure>&#x22;</enclosure>
+    <enclosure>"</enclosure>
     <enclosure_breaks>N</enclosure_breaks>
-    <escapechar/>
+    <escapechar />
     <header>Y</header>
     <nr_headerlines>1</nr_headerlines>
     <footer>N</footer>
@@ -1055,17 +1154,18 @@
     <nr_lines_doc_header>0</nr_lines_doc_header>
     <noempty>Y</noempty>
     <include>N</include>
-    <include_field/>
+    <include_field />
     <rownum>N</rownum>
     <rownumByFile>N</rownumByFile>
-    <rownum_field/>
+    <rownum_field />
     <format>mixed</format>
-    <encoding/>
+    <encoding />
+    <length />
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C&#x3a;&#x5c;Users&#x5c;csouza&#x5c;Documents&#x5c;Projects&#x5c;Pre-Sales&#x5c;NetworkRails&#x5c;NWR Data and Solution&#x5c;excel&#x5c;delay incident&#x5c;Delay Incident v1.2 1617 P6.CSV</name>
-      <filemask/>
-      <exclude_filemask/>
+      <name>C:\Users\csouza\Documents\Projects\Pre-Sales\NetworkRails\NWR Data and Solution\excel\delay incident\Delay Incident v1.2 1617 P6.CSV</name>
+      <filemask />
+      <exclude_filemask />
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
       <type>CSV</type>
@@ -1075,14 +1175,14 @@
     </filters>
     <fields>
       <field>
-        <name>Financial_Year_&#x26;_Period</name>
+        <name>Financial_Year_&amp;_Period</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>11</length>
         <precision>-1</precision>
@@ -1092,12 +1192,12 @@
       <field>
         <name>Date</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1107,12 +1207,12 @@
       <field>
         <name>Train_ID___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>10</length>
         <precision>-1</precision>
@@ -1122,12 +1222,12 @@
       <field>
         <name>Planned_Origin_Location_Code___Affected</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1137,12 +1237,12 @@
       <field>
         <name>Planned_Origin_GBTT_Datetime___Affected</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1152,12 +1252,12 @@
       <field>
         <name>Planned_Origin_WTT_Datetime___Affected</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1167,12 +1267,12 @@
       <field>
         <name>Planned_Dest_Location_Code___Affected</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1182,12 +1282,12 @@
       <field>
         <name>Planned_Dest_GBTT_Datetime___Affected</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1197,12 +1297,12 @@
       <field>
         <name>Planned_Dest_WTT_Datetime___Affected</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1212,12 +1312,12 @@
       <field>
         <name>TSC___Affected</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1227,12 +1327,12 @@
       <field>
         <name>Service_Group_Code___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>4</length>
         <precision>-1</precision>
@@ -1242,12 +1342,12 @@
       <field>
         <name>Operator___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>2</length>
         <precision>-1</precision>
@@ -1257,12 +1357,12 @@
       <field>
         <name>English_Day_Type</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>2</length>
         <precision>-1</precision>
@@ -1272,12 +1372,12 @@
       <field>
         <name>Applicable_Timetable_Flag___Affected</name>
         <type>Boolean</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1287,12 +1387,12 @@
       <field>
         <name>Train_Schedule_Type___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>19</length>
         <precision>-1</precision>
@@ -1302,12 +1402,12 @@
       <field>
         <name>Traction_Type___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>3</length>
         <precision>-1</precision>
@@ -1317,12 +1417,12 @@
       <field>
         <name>Trailing_Load___Affected</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1332,12 +1432,12 @@
       <field>
         <name>Timing_Load___Affected</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>1</length>
         <precision>-1</precision>
@@ -1347,12 +1447,12 @@
       <field>
         <name>Unit_Class___Affected</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1362,12 +1462,12 @@
       <field>
         <name>Incident_Number</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1377,12 +1477,12 @@
       <field>
         <name>Incident_Create_Date</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1392,12 +1492,12 @@
       <field>
         <name>Incident_Start_Datetime</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1407,12 +1507,12 @@
       <field>
         <name>Incident_End_Datetime</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1422,12 +1522,12 @@
       <field>
         <name>Section_Code</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>11</length>
         <precision>-1</precision>
@@ -1437,12 +1537,12 @@
       <field>
         <name>Network_Rail_Location_Manager</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>4</length>
         <precision>-1</precision>
@@ -1452,12 +1552,12 @@
       <field>
         <name>Responsible_Manager</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>4</length>
         <precision>-1</precision>
@@ -1467,12 +1567,12 @@
       <field>
         <name>Incident_Reason</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>2</length>
         <precision>-1</precision>
@@ -1482,12 +1582,12 @@
       <field>
         <name>Attribution_Status</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>20</length>
         <precision>-1</precision>
@@ -1497,12 +1597,12 @@
       <field>
         <name>Incident_Equipment</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>9</length>
         <precision>-1</precision>
@@ -1512,12 +1612,12 @@
       <field>
         <name>Incident_Description</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>30</length>
         <precision>-1</precision>
@@ -1527,12 +1627,12 @@
       <field>
         <name>Reactionary_Reason_Code</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>2</length>
         <precision>-1</precision>
@@ -1542,12 +1642,12 @@
       <field>
         <name>Incident_Responsible_Train</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>10</length>
         <precision>-1</precision>
@@ -1557,12 +1657,12 @@
       <field>
         <name>Performance_Event_Code</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>1</length>
         <precision>-1</precision>
@@ -1572,12 +1672,12 @@
       <field>
         <name>Start_Stanox</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1587,12 +1687,12 @@
       <field>
         <name>End_Stanox</name>
         <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>15</length>
         <precision>0</precision>
@@ -1602,12 +1702,12 @@
       <field>
         <name>Event_Datetime</name>
         <type>Date</type>
-        <format>yyyy&#x2f;MM&#x2f;dd HH&#x3a;mm&#x3a;ss</format>
-        <currency>&#xa3;</currency>
+        <format>yyyy/MM/dd HH:mm:ss</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
@@ -1617,12 +1717,12 @@
       <field>
         <name>PfPI_Minutes</name>
         <type>Number</type>
-        <format>&#x23;.&#x23;</format>
-        <currency>&#xa3;</currency>
+        <format>#.#</format>
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>5</length>
         <precision>3</precision>
@@ -1632,12 +1732,12 @@
       <field>
         <name>Train_ID___Resp</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>10</length>
         <precision>-1</precision>
@@ -1647,12 +1747,12 @@
       <field>
         <name>Train_ID___React</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
-        <ifnull/>
+        <ifnull />
         <position>-1</position>
         <length>10</length>
         <precision>-1</precision>
@@ -1663,29 +1763,29 @@
     <limit>0</limit>
     <error_ignored>Y</error_ignored>
     <skip_bad_files>Y</skip_bad_files>
-    <file_error_field/>
-    <file_error_message_field/>
+    <file_error_field />
+    <file_error_message_field />
     <error_line_skipped>N</error_line_skipped>
-    <error_count_field/>
-    <error_fields_field/>
-    <error_text_field/>
-    <bad_line_files_destination_directory/>
+    <error_count_field />
+    <error_fields_field />
+    <error_text_field />
+    <bad_line_files_destination_directory />
     <bad_line_files_extension>warning</bad_line_files_extension>
-    <error_line_files_destination_directory/>
+    <error_line_files_destination_directory />
     <error_line_files_extension>error</error_line_files_extension>
-    <line_number_files_destination_directory/>
+    <line_number_files_destination_directory />
     <line_number_files_extension>line</line_number_files_extension>
     <date_format_lenient>Y</date_format_lenient>
     <date_format_locale>en_US</date_format_locale>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <cluster_schema/>
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1697,22 +1797,21 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Value Mapper</name>
     <type>ValueMapper</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <field_to_use>Actual Vs Prediction</field_to_use>
-    <target_field/>
-    <non_match_default/>
+    <target_field />
+    <non_match_default />
     <fields>
       <field>
         <source_value>identical</source_value>
@@ -1723,7 +1822,7 @@
         <target_value>Incorrect Prediction</target_value>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1735,8 +1834,7 @@
       <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step_error_handling>
   </step_error_handling>
   <slave-step-copy-partition-distribution>

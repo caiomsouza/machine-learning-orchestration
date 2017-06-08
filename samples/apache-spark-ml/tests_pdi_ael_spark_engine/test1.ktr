@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>samples_ml_r_api_get_lat_lon_using_google_maps_parameters</name>
+    <name>test1</name>
     <description />
     <extended_description />
     <trans_version />
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -428,53 +427,62 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2017/03/30 16:26:32.189</created_date>
+    <created_date>2017/05/31 10:52:35.816</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2017/03/30 16:26:32.189</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2017/05/31 10:52:35.816</modified_date>
+    <key_for_session_key />
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
-    <notepad>
-      <note>address &lt;- c("Parque del Retiro, Madrid","Aeropuerto Barajas, Madrid")
-locations  &lt;- ldply(address, function(x) geoCode(x))
-names(locations)  &lt;- c("lat","lon","location_type", "formatted")
-#head(locations)
-locations</note>
-      <xloc>165</xloc>
-      <yloc>58</yloc>
-      <width>569</width>
-      <heigth>130</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
   </notepads>
   <order>
     <hop>
-      <from>Data Grid - Address</from>
-      <to>R Script Executor</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>R Script Executor</from>
-      <to>JSON Output</to>
+      <from>Data Grid</from>
+      <to>Calculator</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Data Grid - Address</name>
+    <name>Calculator</name>
+    <type>Calculator</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <calculation>
+      <field_name>sum</field_name>
+      <calc_type>ADD</calc_type>
+      <field_a>var1</field_a>
+      <field_b>var2</field_b>
+      <field_c />
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <currency_symbol />
+    </calculation>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Data Grid</name>
     <type>DataGrid</type>
     <description />
     <distribute>Y</distribute>
@@ -486,8 +494,19 @@ locations</note>
     </partitioning>
     <fields>
       <field>
-        <name>address</name>
-        <type>String</type>
+        <name>var1</name>
+        <type>Number</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>var2</name>
+        <type>Number</type>
         <format />
         <currency />
         <decimal />
@@ -499,7 +518,12 @@ locations</note>
     </fields>
     <data>
       <line>
-        <item>White House, USA</item>
+        <item>1</item>
+        <item>3</item>
+      </line>
+      <line>
+        <item>3</item>
+        <item>3</item>
       </line>
     </data>
     <cluster_schema />
@@ -510,180 +534,8 @@ locations</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>JSON Output</name>
-    <type>JsonOutput</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <outputValue>outputValue</outputValue>
-    <jsonBloc>data</jsonBloc>
-    <nrRowsInBloc>1</nrRowsInBloc>
-    <operation_type>writetofile</operation_type>
-    <compatibility_mode>N</compatibility_mode>
-    <encoding>UTF-8</encoding>
-    <addtoresult>N</addtoresult>
-    <file>
-      <name>${Internal.Transformation.Filename.Directory}/output_samples_ml_r_api_lat_lon_google_maps</name>
-      <extention>js</extention>
-      <append>Y</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <create_parent_folder>N</create_parent_folder>
-      <DoNotOpenNewFileInit>N</DoNotOpenNewFileInit>
-      <servlet_output>N</servlet_output>
-    </file>
-    <fields>
-      <field>
-        <name>address.input</name>
-        <element>address.input</element>
-      </field>
-      <field>
-        <name>lat</name>
-        <element>lat</element>
-      </field>
-      <field>
-        <name>lon</name>
-        <element>lon</element>
-      </field>
-      <field>
-        <name>location_type</name>
-        <element>location_type</element>
-      </field>
-      <field>
-        <name>formatted</name>
-        <element>formatted</element>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>R Script Executor</name>
-    <type>RScriptExcecutor</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <rows_to_process>All</rows_to_process>
-    <rows_to_process_size />
-    <reservoir_sampling>N</reservoir_sampling>
-    <reservoir_sampling_size />
-    <random_seed>1</random_seed>
-    <output_is_raw_text>N</output_is_raw_text>
-    <strings_as_factors>N</strings_as_factors>
-    <include_input_as_output>N</include_input_as_output>
-    <script># The main output is expected to be a data frame, unless "Output from script is text" is checked. So,
-# to output a data frame the last statement in the script should be the name of the frame. In the
-# case that the output is text (as would be seen on the R console), the last statement should be a
-# "print" statement in order to print the object required.
-
-# This code was original created by Jose Gonzalez https://github.com/josecarlosgonz 
-# and adapted by Caio Moreno https://github.com/caiomsouza
-# https://gist.github.com/josecarlosgonz/6417633
-
-
-library(RCurl)
-library(RJSONIO)
-library(plyr)
-
-url &lt;- function(address, return.call = "json", sensor = "false") {
-  root &lt;- "http://maps.google.com/maps/api/geocode/"
-  u &lt;- paste(root, return.call, "?address=", address, "&amp;sensor=", sensor, sep = "")
-  return(URLencode(u))
-}
-
-geoCode &lt;- function(address,verbose=FALSE) {
-  if(verbose) cat(address,"\n")
-  u &lt;- url(address)
-  doc &lt;- getURL(u)
-  x &lt;- fromJSON(doc,simplify = FALSE)
-  if(x$status=="OK") {
-    lat &lt;- x$results[[1]]$geometry$location$lat
-    lng &lt;- x$results[[1]]$geometry$location$lng
-    location_type  &lt;- x$results[[1]]$geometry$location_type
-    formatted_address  &lt;- x$results[[1]]$formatted_address
-    return(c(lat, lng, location_type, formatted_address))
-    Sys.sleep(0.5)
-  } else {
-    return(c(NA,NA,NA, NA))
-  }
-}
-
-#address.input &lt;- c("Parque del Retiro, Madrid")
-
-locations  &lt;- ldply(address.input, function(x) geoCode(x))
-names(locations)  &lt;- c("address.input","lat","lon","location_type", "formatted")
-locations
-
-</script>
-    <r_log_level>Detailed</r_log_level>
-    <load_r_script_at_runtime>N</load_r_script_at_runtime>
-    <r_script_to_load />
-    <frame_names>
-      <frame_name0>address.input</frame_name0>
-    </frame_names>
-    <incoming_step_names>
-      <step_name0>Data Grid - Address</step_name0>
-    </incoming_step_names>
-    <output_fields>
-      <out_field>
-        <field_name>address.input</field_name>
-        <type>String</type>
-      </out_field>
-      <out_field>
-        <field_name>lat</field_name>
-        <type>String</type>
-      </out_field>
-      <out_field>
-        <field_name>lon</field_name>
-        <type>String</type>
-      </out_field>
-      <out_field>
-        <field_name>location_type</field_name>
-        <type>String</type>
-      </out_field>
-      <out_field>
-        <field_name>formatted</field_name>
-        <type>String</type>
-      </out_field>
-    </output_fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>256</yloc>
+      <xloc>160</xloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
