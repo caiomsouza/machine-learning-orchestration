@@ -1,0 +1,7 @@
+
+samples/r/code/detecting_fraudulent_transactions/similarProducts.Rdata
+samples/r/code/detecting_fraudulent_transactions/data-raw/pdf/vara_2011_01_010_001321.pdf
+samples/r/code/detecting_fraudulent_transactions/data-raw/pdf/vara_2011_01_010_001755.pdf
+samples/r/code/detecting_fraudulent_transactions/data-raw/pdf/vara_2011_01_010_002086.pdf
+samples/r/code/detecting_fraudulent_transactions/sales.RData
+samples/r/code/detecting_fraudulent_transactions/salesClean.RData
