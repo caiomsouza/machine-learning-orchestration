@@ -27,5 +27,19 @@ http://www.ml4aad.org/automl/auto-sklearn/<BR>
 https://automl.github.io/auto-sklearn/stable/<BR>
 https://github.com/automl/auto-sklearn
 
+AutoWeka for python<BR>
+https://github.com/automl/pyautoweka<BR>
+
+H20.ai - AutoML: Automatic Machine Learning<BR>
+http://h2o-release.s3.amazonaws.com/h2o/master/3888/docs-website/h2o-docs/automl.html<BR>
+https://es.slideshare.net/0xdata/h2o-automl-roadmap-ray-peck<BR>
+https://blog.h2o.ai/2017/06/automatic-machine-learning/<BR>
+https://www.youtube.com/watch?v=ZZSe3osXK_E<BR>
+https://www.meetup.com/pt-BR/H2O-AI-Deep-Learning/events/240230422/?eventId=240230422<BR><BR>
+
+TPOT<BR>
+https://github.com/rhiever/tpot<BR>
+https://rhiever.github.io/tpot/<BR><BR>
+
 DataRobot<BR>
 https://www.datarobot.com/blog/automated-machine-learning-short-history/<BR>
