@@ -1,6 +1,12 @@
 Predictive Model Markup Language<BR>
 https://en.wikipedia.org/wiki/Predictive_Model_Markup_Language<BR><BR>
 
+Data scientists tackle the analytic lifecycle<BR>
+https://www.oreilly.com/ideas/data-scientists-and-the-analytic-lifecycle<BR><BR>
+
+Deploying Python Machine Learning Models in Production | SciPy 2015 | Krishna Sridhar<BR>
+https://www.youtube.com/watch?v=6TI-gQhsf40<BR><BR>
+
 Building a Machine Learning Orchestration Framework on Apache Mesos<BR>
 https://www.linux.com/videos/building-machine-learning-orchestration-framework-apache-mesos<BR><BR>
 
@@ -21,9 +27,6 @@ https://loads.pickle.me.uk/2016/04/04/deploying-a-scikit-learn-classifier-to-pro
 
 3.4. Model persistence<BR>
 http://scikit-learn.org/stable/modules/model_persistence.html<BR><BR>
-
-Data scientists tackle the analytic lifecycle<BR>
-https://www.oreilly.com/ideas/data-scientists-and-the-analytic-lifecycle<BR><BR>
 
 Machine learning: The deplorable state of deployment<BR>
 http://www.computerworld.com/article/3136676/application-development/machine-learning-the-deplorable-state-of-deployment.html<BR><BR>
