@@ -76,7 +76,8 @@ https://devpost.com/software/automl-automate-your-machine-learning-using-azure<B
 Automatic Statistician<BR>
 https://www.automaticstatistician.com/index/<BR>
 
-
+AutoML - Big ML<BR>
+https://bigml.com/<BR>
 
 
 
