@@ -32,6 +32,8 @@ https://github.com/automl/pyautoweka<BR>
 
 H20.ai - AutoML: Automatic Machine Learning<BR>
 http://h2o-release.s3.amazonaws.com/h2o/master/3888/docs-website/h2o-docs/automl.html<BR>
+http://s3.amazonaws.com/h2o-release/h2o/master/3874/docs-website/h2o-docs/automl.html<BR>
+https://blog.h2o.ai/category/automl/<BR>
 https://es.slideshare.net/0xdata/h2o-automl-roadmap-ray-peck<BR>
 https://blog.h2o.ai/2017/06/automatic-machine-learning/<BR>
 https://www.youtube.com/watch?v=ZZSe3osXK_E<BR>
@@ -43,3 +45,39 @@ https://rhiever.github.io/tpot/<BR><BR>
 
 DataRobot<BR>
 https://www.datarobot.com/blog/automated-machine-learning-short-history/<BR>
+
+Google I/O Keynote (Google I/O '17)<BR>
+https://www.youtube.com/watch?v=Y2VF8tmLFHw<BR>
+
+ChaLearn Automatic Machine Learning Challenge (AutoML)<BR>
+https://competitions.codalab.org/competitions/2321<BR>
+
+SMAC: Sequential Model-based Algorithm Configuration<BR>
+http://www.cs.ubc.ca/labs/beta/Projects/SMAC/<BR>
+
+Automated Algorithm Configuration (AAC)<BR>
+http://www.cs.ubc.ca/labs/beta/Projects/AAC/index.html<BR>
+
+Eugene Tuv - AutoML<BR>
+http://automl.chalearn.org/home/eugene-tuv<BR>
+
+AutoML 2017 @ ECML-PKDD:<BR>
+https://sites.google.com/site/automl2017ecmlpkdd/<BR>
+
+TPOT Automated Machine Learning Competition<BR>
+http://www.randalolson.com/2017/06/02/tpot-automated-machine-learning-competition/<BR>
+
+SCIENCEGoogle AutoML Enables Developers To Build Their Own AI<BR>
+http://techthelead.com/google-automl-enables-developers-build-ai/<BR>
+
+AutoML - Automate your Machine Learning using Azure<BR>
+https://devpost.com/software/automl-automate-your-machine-learning-using-azure<BR>
+
+Automatic Statistician<BR>
+https://www.automaticstatistician.com/index/<BR>
+
+AutoML - Big ML<BR>
+https://bigml.com/<BR>
+
+
+
