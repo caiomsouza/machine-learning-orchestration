@@ -3,7 +3,7 @@
 # If you are using Ubuntu you might need to install some packages:
 # sudo apt install libcurl4-openssl-dev
 
-# Try the commands below if the one above do not fix the issue
+# Try the commands below if the one above does not fix the issue
 # sudo apt-get install aptitude
 # sudo apt-get install libcurl4-openssl-dev
 # sudo apt-get install libxml2-dev
