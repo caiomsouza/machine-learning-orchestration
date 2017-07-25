@@ -1,4 +1,15 @@
 
+# https://github.com/sagemath/cloud/issues/114
+# If you are using Ubuntu you might need to install some packages:
+# sudo apt install libcurl4-openssl-dev
+
+# Try the commands below if the one above do not fix the issue
+# sudo apt-get install aptitude
+# sudo apt-get install libcurl4-openssl-dev
+# sudo apt-get install libxml2-dev
+
+
+
 # Version 3.10.5.3 (Last Stable Version - CM_20170712)
 # Caio
 
@@ -49,9 +60,23 @@ install.packages("h2o", type="source", repos="http://h2o-release.s3.amazonaws.co
 library(h2o)
 h2o.init()
 
-setwd("~/Desktop")
-train <- h2o.importFile("kaggle-santander-train.csv")
-test <- h2o.importFile("test.csv")
+#setwd("~/Desktop")
+setwd("~/GitHub/machine-learning-orchestration/AutoML/src/r/h2o-automl")
+
+#download(url, dest="dataset.zip", mode="wb"
+
+# Unzip files
+#install.packages("downloader")
+library(downloader)
+unzip(zipfile="./dataset/test.csv.zip",exdir="./dataset")
+unzip(zipfile="./dataset/train.csv.zip",exdir="./dataset")
+
+
+setwd("~/GitHub/machine-learning-orchestration/AutoML/src/r/h2o-automl/dataset")
+
+train <- h2o.importFile("train.csv")
+train <- h2o.importFile("dataset/train.csv")
+test <- h2o.importFile("./dataset/test.csv")
 
 aml <- h2o.automl(y = "TARGET", training_frame = train, max_runtime_secs = 60)
 
