@@ -79,5 +79,11 @@ https://www.automaticstatistician.com/index/<BR>
 AutoML - Big ML<BR>
 https://bigml.com/<BR>
 
+Automated Machine Learning: A Short History<BR>
+https://www.datarobot.com/blog/automated-machine-learning-short-history/<BR>
 
+DataRobot Python Client<BR>
+http://pythonhosted.org/datarobot/setup/getting_started.html<BR>
 
+Become a Data Science Superhero<BR>
+https://www.datarobot.com/data-science-superheroes/symphony-post-acute-network/?utm_source=google&utm_medium=homepage&utm_campaign=homepagebanner<BR>
