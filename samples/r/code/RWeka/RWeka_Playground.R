@@ -184,6 +184,8 @@ WPM("list-packages", "available")
 ## Show repository information about package XMeans.
 WPM("package-info", "repository", "XMeans")
 
+
+
 write.arff(iris, file = "iris_test.arff")
 
 
@@ -217,4 +219,21 @@ tdm <- TermDocumentMatrix(crude, control = list(tokenize = BigramTokenizer))
 inspect(tdm[340:345,1:10])
 
 plot(tdm, terms = findFreqTerms(tdm, lowfreq = 2)[1:50], corThreshold = 0.5)
+
+
+# http://weka.8497.n7.nabble.com/Segfault-when-using-Auto-WEKA-td39328.html
+
+# RAutoWeka
+WPM("install-package","Auto-WEKA")
+WPM("load-package","Auto-WEKA")
+
+df = mtcars
+auto = make_Weka_classifier("weka.classifiers.meta.AutoWEKAClassifier")
+#confirm it loaded
+#auto
+predict = auto(mpg~.,df)
+
+
+predict = auto(Species~.,iris) 
+
 
