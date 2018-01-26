@@ -31,7 +31,7 @@ AutoWeka for python<BR>
 https://github.com/automl/pyautoweka<BR>
   
 SAS Factory Miner<BR>
-https://www.sas.com/en_us/software/factory-miner.html
+https://www.sas.com/en_us/software/factory-miner.html<BR>
 http://video.sas.com/detail/video/4344554557001/automated-machine-learning-at-scale<BR>
 
 H20.ai - AutoML: Automatic Machine Learning<BR>
